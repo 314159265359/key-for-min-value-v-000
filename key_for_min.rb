@@ -11,8 +11,8 @@ def key_for_min_value(hash)
     if first_time == true
       min = value
       max = value
-      first_time = false
       hold_name = name
+      first_time = false
     elsif value < min && value < max
       min = value
       hold_name = name
