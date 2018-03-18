@@ -12,8 +12,8 @@ def key_for_min_value(hash)
     #  if (first_time == true)
     #    holder = value
     #  end
-     
-     if first_time == true || value < holder
+
+     if first_time || value < holder
      hold_name = name
      holder = value
      end
