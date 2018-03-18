@@ -7,7 +7,6 @@ def key_for_min_value(hash)
   #hold = hash.max_by{|k,v| v}
   #holder = hold[1]
   first_time = true
-  holder = 0
   hold_name = ""
   hash.each do |name, value|
      if (first_time == true)
