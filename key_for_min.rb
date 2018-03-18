@@ -4,6 +4,6 @@
 def key_for_min_value(hash)
   return nil if hash == {}
   hash.each_with_index do |name, value|
-    put hash  
+    puts hash  
   end
 end
