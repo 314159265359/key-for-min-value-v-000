@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   return nil if hash == {}
-  hash.each_with_index do |name, value|
+  hash.collect do |name, value|
     puts hash  
   end
 end
