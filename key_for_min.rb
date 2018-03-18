@@ -28,6 +28,7 @@ def key_for_min_value(hash)
       end
       vcount += 1
     end 
+  end
   #   if first_time = true
   #     while counter < hash.length
   #     holder[counter] = value
