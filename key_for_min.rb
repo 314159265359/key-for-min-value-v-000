@@ -8,7 +8,7 @@ def key_for_min_value(hash)
   first_time = true
   hold_name = ""
   hash.each do |name, value|
-    if first_time == true
+    if first_time
       min = value
       max = value
       hold_name = name
