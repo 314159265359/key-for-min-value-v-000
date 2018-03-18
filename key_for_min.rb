@@ -4,20 +4,14 @@
 def key_for_min_value(hash)
   return nil if hash == {}
   #holder = hash.values.max
-  #hold = hash.max_by{|k,v| v}
-  #holder = hold[1]
-  first_time = true
+  hold = hash.max_by{|k,v| v}
+  holder = hold[1]
   hold_name = ""
   hash.each do |name, value|
-    #  if (first_time == true)
-    #    holder = value
-    #  end
-
-     if first_time || value < holder
+     if value < holder
      hold_name = name
      holder = value
      end
-     first_time = false
    end
    return hold_name
 end
