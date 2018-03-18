@@ -19,5 +19,5 @@ def key_for_min_value(hash)
     else max = value
     end
   end
-  return hold_name
+  hold_name
 end
