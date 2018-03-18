@@ -10,8 +10,8 @@ def key_for_min_value(hash)
   vcount = 0
   min = 0
   max = 0
-  narray = ""
-  varray = ""
+  narray = []
+  varray = []
   hold_name = ""
   #first_time = true
   hash.each do |name, value|
@@ -19,15 +19,15 @@ def key_for_min_value(hash)
       narray << name
       varray << value
       counter += 1
-    end 
+    end
     while vcount < varray.length
       if value < varray(vcount)
         min = value
         max = varray(vcount)
-        hold_name = name 
+        hold_name = name
       end
       vcount += 1
-    end 
+    end
   end
   #   if first_time = true
   #     while counter < hash.length
@@ -37,7 +37,7 @@ def key_for_min_value(hash)
   #     first_time = false
   #     hold_name = name
   #   else
-  #     while 
+  #     while
   #     if value < holder[counter] && value < holder[0]
   #     #hold_name = name
   #       hold_value = value
