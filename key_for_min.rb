@@ -9,7 +9,7 @@ def key_for_min_value(hash)
   first_time = true
   hold_name = ""
   hash.each do |name, value|
-     if first_time 
+     if first_time == true
        holder = value
      end
      first_time = false
