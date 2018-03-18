@@ -14,10 +14,11 @@ def key_for_min_value(hash)
       first_time = false
     else
       if value < holder
-      hold_name = name
+      #hold_name = name
       holder = value
       end
     end
+    hold_name = name
    end
    return hold_name
 end
